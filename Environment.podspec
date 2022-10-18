@@ -24,13 +24,16 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/guomin/Environment'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'guomin' => '565117937@qq.com' }
-  s.source           = { :git => 'https://github.com/guomin/Environment.git', :tag => s.version.to_s }
+  s.author           = { 'SearchForUtopia' => '565117937@qq.com' }
+  s.source           = { :git => 'git@github.com:SearchForUtopia/Environment.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'Environment/Classes/**/*'
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   # s.resource_bundles = {
   #   'Environment' => ['Environment/Assets/*.png']

@@ -1,0 +1,22 @@
+{
+  "name": "Environment",
+  "version": "0.1.0",
+  "summary": "A short description of Environment.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/guomin/Environment",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guomin": "565117937@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/guomin/Environment.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Environment/Classes/**/*"
+}

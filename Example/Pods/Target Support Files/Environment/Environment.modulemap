@@ -1,0 +1,6 @@
+framework module Environment {
+  umbrella header "Environment-umbrella.h"
+
+  export *
+  module * { export * }
+}
